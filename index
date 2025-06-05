@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Central de Processos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #4f46e5;
+      color: white;
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .setores {
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .setor {
+      background-color: white;
+      border: 2px solid #e0e0e0;
+      padding: 20px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      text-decoration: none;
+      color: #333;
+      transition: 0.3s;
+      font-size: 18px;
+    }
+
+    .setor:hover {
+      border-color: #4f46e5;
+      transform: scale(1.03);
+    }
+
+    .login {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📂 Central de Processos</h1>
+  </header>
+
+  <section class="setores">
+    <a class="setor" href="comercial.html">🛒 Comercial</a>
+    <a class="setor" href="operacoes.html">⚙️ Operações</a>
+    <a class="setor" href="financeiro.html">💰 Financeiro</a>
+    <a class="setor" href="rh.html">👥 RH</a>
+    <a class="setor" href="tecnologia.html">💻 Tecnologia</a>
+    <a class="setor" href="mkt.html">📢 Marketing</a>
+  </section>
+</body>
+</html>
